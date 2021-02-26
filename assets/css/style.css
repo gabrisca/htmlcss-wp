@@ -1,0 +1,141 @@
+/* GENERAL */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {
+  background-color: white;
+}
+
+.container {
+  width: 80%;
+  margin: 20px auto;
+  background-color: black;
+}
+
+header,
+main,
+footer {
+  width: 100%;
+}
+
+/* /GENERAL */
+
+/* HEADER */
+
+header {
+  height: 500px;
+  /* togliere l'altezza quando inserisci il testo */
+  margin-bottom: 20px;
+}
+
+section.logo,
+nav section.banner {
+  width: 100%;
+}
+
+section.logo {
+  /* width: 100%; */
+  height: 15%;
+  background-color: #e57ae6;
+}
+
+nav {
+  /* width: 100%; */
+  height: 10%;
+  background-color: #e57ab3;
+  margin-bottom: 20px;
+}
+
+section.banner {
+  /* width: 100%; */
+  /* height: 350px; */
+  height: calc(75% - 20px);
+  background-color: #e1d67a;
+}
+
+/* /HEADER */
+
+/* MAIN */
+
+main {
+  height: 500px;
+  /* togliere l'altezza quando inserisci il testo */
+  background-color: #1286ff;
+  margin-bottom: 20px;
+}
+
+main section.title,
+main section.wrapper {
+  width: 100%;
+}
+
+main section.title {
+  /* width: 100%; */
+  height: 10%;
+  /* togliere l'altezza quando inserisci il testo */
+  background-color: #abcfe7;
+  margin-bottom: 20px;
+}
+
+main section.wrapper {
+  /* width: 100%; */
+  height: calc(90% - 20px);
+  /* togliere l'altezza quando inserisci il testo */
+  background-color: #1286ff;
+  padding-bottom: 20px;
+}
+
+main aside.col-left,
+main div.col-center,
+main aside.col-right {
+  height: 100%;
+  /* togliere l'altezza quando inserisci il testo */
+  float: left;
+  background-color: #abcfe7;
+}
+
+main aside.col-left {
+  width: 20%;
+  /* height: 100%; */
+  /* togliere l'altezza quando inserisci il testo */
+  /* background-color: #abcfe7; */
+  /* float: left; */
+}
+
+main div.col-center {
+  width: calc(60% - 20px);
+  /* height: 100%; */
+  /* togliere l'altezza quando inserisci il testo */
+  /* background-color: #abcfe7; */
+  /* float: left; */
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+main aside.col-right {
+  width: 20%;
+  /* height: 100%; */
+  /* togliere l'altezza quando inserisci il testo */
+  /* background-color: #abcfe7; */
+  /* float: left; */
+}
+/* MAIN */
+
+/* FOOTER */
+
+footer {
+  height: 50px;
+  background-color: #8801fe;
+}
+
+/* /FOOTER */
