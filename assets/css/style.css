@@ -61,7 +61,6 @@ nav li a {
   text-decoration: none;
   color: #929292;
   text-transform: uppercase;
-  /* font-weight: bold; */
 }
 
 nav li a:hover {
@@ -72,17 +71,16 @@ section.banner {
   height: 410px;
   border-radius: 12px;
   margin-bottom: 30px;
-  background-image: url(../img/banner.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../img/banner.jpg);
   background-position: center;
   background-size: cover;
-  /* opacity: 0.8; */
-  filter: brightness(90%);
   padding-top: 26%;
   padding-left: 3%;
 }
 
 section.banner .banner-text {
-  color: black;
+  color: white;
   width: 54%;
 }
 
@@ -114,8 +112,7 @@ main h4 {
   font-weight: 400;
 }
 
-main p,
-header p {
+main p {
   color: #929292;
   font-size: 14px;
 }
